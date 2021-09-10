@@ -10,7 +10,7 @@ branches:
     - master # build master branch only
 script:
   - hexo generate # generate static files
-  - cd pubilc
+  - cd public
   - touch CNAME
   - echo 'www.trycatchyou.com' > CNAME
 deploy:
